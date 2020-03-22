@@ -1,0 +1,51 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.site-info {
+    display: none;
+}
+
+#single-poster {
+    height: 100%;
+    max-height: 377px;
+}
+
+#single-title {
+    display: inline-block;
+}
+
+#single-card {
+    min-height: 365px;
+}
+
+.archive-poster {
+    margin-top: -45px;
+    margin-left: -10px;
+    height: 125px;
+    width: 93px;
+}
+
+.archive-title {
+    display: inline-block;
+}
+
+#nav-badge {
+    font-weight: 900;
+    font-size: larger;
+}
+
+#movie-list-item {
+    height: 145px;
+}
+
+.pagination > li > a
+{
+    background-color: $dark;
+    border-color: $primary;
+}
+
+#imdb-button {
+    float: right;
+}
